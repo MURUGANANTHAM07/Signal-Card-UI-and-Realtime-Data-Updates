@@ -1,0 +1,42 @@
+/* SignalCard.css */
+
+.signal-card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signal-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.signal-body {
+    display: flex;
+    gap: 5px;
+}
+
+.signal-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
